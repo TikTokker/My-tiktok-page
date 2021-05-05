@@ -1,0 +1,54 @@
+body {
+    padding: 0;
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    background-color: #eeeeee;
+}
+
+.container {
+    width: 1200px;
+    max-width: 1200px;
+    margin: 20px auto;
+    text-align: center;
+}
+
+img {
+    width: 350px;
+}
+
+.author {
+    text-transform: uppercase;
+    font-size: 39px;
+    letter-spacing: 5px;
+}
+h1, h3{ 
+    margin: 0;
+}
+.tiktok__link {
+    color: tomato;
+    font-size: 29px; 
+}
+.tiktok__link:focus, 
+.tiktok__link:active {
+    outline: none;
+}
+
+iframe {
+    width: 800px;
+    height: 452px;
+}
+
+footer {
+    width: 100%;
+    height: 100px;
+    background-color: #000;
+    text-align: center;
+    display: inline-block;
+    vertical-align: bottom;
+    line-height: 100px;
+    margin: 0 auto;
+    color: #fff;
+    font-weight: 300;
+    font-size: 13px;
+    letter-spacing: 2px;
+}
